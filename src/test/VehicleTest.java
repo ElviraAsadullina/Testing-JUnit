@@ -10,10 +10,6 @@ public class VehicleTest {
     Car car;
     Motorcycle motorcycle;
 
-    @BeforeEach
-    void setUpForAll() {
-    }
-
     @Nested
     class TestCasesWithCar {
 
