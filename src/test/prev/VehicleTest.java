@@ -1,3 +1,5 @@
+package prev;
+
 import main.java.Homework2.Task1.Car;
 import main.java.Homework2.Task1.Motorcycle;
 import main.java.Homework2.Task1.Vehicle;
@@ -9,6 +11,10 @@ import static org.assertj.core.api.Assertions.*;
 public class VehicleTest {
     Car car;
     Motorcycle motorcycle;
+
+//    @BeforeEach
+//    void setUpForAll() {
+//    }
 
     @Nested
     class TestCasesWithCar {
